@@ -1,0 +1,9 @@
+﻿@page "/"
+
+<h4>Get a Joke</h4>
+<button type="button" @onclick="GetJokeAsync" class="btn btn-outline-primary">Get Joke</button>
+<div class="card mt-2">
+    <div class="card-body">
+        @HtmlTextJoke
+    </div>
+</div>
